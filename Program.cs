@@ -17,7 +17,7 @@ namespace workshopweek4
                 int a = int.Parse(Console.ReadLine());
                 int b = int.Parse(Console.ReadLine());
 
-                if (a != 0 || b != 0 || a > 0 || b > 0)
+                if (a >= 1 && b >= 1)
                 {
                     market[a - 1] = 'X';
                     market[b - 1] = 'X';
